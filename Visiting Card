@@ -1,0 +1,94 @@
+XML Code
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity">
+ <TextView
+ android:id="@+id/textView"
+ android:layout_width="177dp"
+ android:layout_height="65dp"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="138dp"
+ android:layout_marginBottom="664dp"
+ android:text="mycem"
+ android:textAlignment="center"
+ android:textSize="60sp"
+ app:autoSizeMaxTextSize="28dp"
+ tools:layout_editor_absoluteX="84dp"
+ tools:layout_editor_absoluteY="82dp" />
+ <View
+ android:id="@+id/view"
+ android:layout_width="wrap_content"
+ android:layout_height="4dp"
+ android:layout_alignParentBottom="true"
+ android:layout_marginBottom="590dp"
+ android:background="#4444" />
+ <TextView
+ android:id="@+id/textView2"
+ android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="151dp"
+ android:layout_marginBottom="521dp"
+ android:text="Person Name"
+ android:textAlignment="center"
+ android:textSize="18sp"
+ android:textStyle="bold" />
+ <TextView
+ android:id="@+id/textView3"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="130dp"
+ android:layout_marginBottom="465dp"
+ android:text="Designation"
+ android:textSize="18sp" />
+ <TextView
+ android:id="@+id/textView4"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="63dp"
+ android:layout_marginBottom="419dp"
+ android:text="Company Name "
+ android:textAlignment="center"
+ android:textSize="18sp" />
+ <TextView
+ android:id="@+id/textView5"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="166dp"
+ android:layout_marginBottom="373dp"
+ android:text="Phone number"
+ android:textSize="14sp" />
+ <TextView
+android:id="@+id/textView7"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="123dp"
+ android:layout_marginBottom="338dp"
+ android:text="email-id"
+ android:textAlignment="center"
+ android:textSize="14sp" />
+ <ImageView
+ android:id="@+id/imageView2"
+ android:layout_width="96dp"
+ android:layout_height="70dp"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="169dp"
+ android:layout_marginBottom="589dp"
+ app:srcCompat="@drawable/ceclogo" />
+</RelativeLayout>
